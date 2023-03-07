@@ -1,0 +1,42 @@
+.labour {
+    width: 100%;
+   
+}
+.labour table {
+    width: 85%;
+    border-collapse: collapse;
+    margin-left: 7%;
+    border: 2px solid green
+
+}
+.labour button {
+    background-color:green;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+}
+.labour tr:nth-child(odd){
+    background-color:#f9f9f9;
+    }
+.labour tr:hover {
+        background-color:rgb(204, 252, 204);
+    }
+.labour tr {
+        text-align: center;
+        height: 2px;
+        padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    }
+.labour th {
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-color: white;
+ }
